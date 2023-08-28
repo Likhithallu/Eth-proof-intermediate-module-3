@@ -6,9 +6,9 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract MyToken is ERC20 {
     address public owner;
 
-    constructor() ERC20("MetacrafterToken", "MCT") {
+    constructor() ERC20("Likhith_Token", "MCT") {
         owner = msg.sender;
-        _mint(msg.sender, 100 * 10 ** decimals());
+        _mint(msg.sender, 150 * 15 ** decimals());
     }
 
     modifier onlyOwner() {
